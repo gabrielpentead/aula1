@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo HTML 5</title>
+</head>
+<body>
+    <!--Cabeçalho da página-->
+    <header>
+        <h1>Neymar ficou careca</h1>
+    </header>
+    <!--Define a sessão principal da página-->
+    <main>
+        <!--Exibe uma imagem-->
+        <figure>
+            <img src="images.jpeg" alt="Neymar careca">
+            <figcaption>Neymar careca</figcaption>
+        </figure>
+        <!--Audio-->    
+        <audio controls>
+            <source src="town-10169.mp3" type="Audio/mpeg">
+        </audio>
+        <!--video forma 1-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1ipXAnt9e_o?si=--UAdOxkvCUI6RBn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <!--Video forma 2-->
+        <video controls>
+            <source src="Aula05_Prototipagem.mp4" type="video/mp4">
+        </video>
+            <br>
+        <!--Cria um formulário com validação-->
+        <form>
+            <label for="nome">Nome: </label>
+            <input type="text" id="name" name="nome" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Exemplo de Página HTML 5</p>
+    </footer>
+</body>
+</html>
